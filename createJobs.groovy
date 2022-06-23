@@ -7,7 +7,6 @@ pipelineJob('pipelineJob') {
     }
 }
 pipelineJob('track-github-activities-pipeline') {
-    authenticationToken('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')
     definition {
         cpsScm {
             scm {
