@@ -6,7 +6,7 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('track-github-activities-pipeline') {
+pipelineJob('track-github-activities') {
     definition {
         cpsScm {
             scm {
