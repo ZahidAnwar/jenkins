@@ -12,7 +12,7 @@ pipelineJob('track-github-activities-pipeline') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/ZahidAnwar/track-github-activities.git'
+                        url 'https://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@github.com/ZahidAnwar/track-github-activities.git'
                     }
                     branch 'pipeline'
                 }
