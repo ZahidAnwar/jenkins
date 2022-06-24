@@ -2,6 +2,6 @@ authorize-project:1.4.0
 job-dsl:1.78.1
 workflow-aggregator:2.6
 git:4.10.0
-maven-plugin:3.6.1
+maven-plugin:3.8.6
 aws-credentials:1.32
 pipeline-aws:1.43
