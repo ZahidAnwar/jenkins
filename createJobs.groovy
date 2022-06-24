@@ -14,7 +14,7 @@ pipelineJob('track-github-activities-pipeline') {
                     remote {
                         url 'https://github.com/ZahidAnwar/track-github-activities.git'
                     }
-                    branch 'pipeline'
+                    branch 'gradle'
                 }
             }
         }
