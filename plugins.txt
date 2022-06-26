@@ -3,6 +3,6 @@ job-dsl:1.78.1
 workflow-aggregator:2.6
 git:4.10.0
 maven-plugin:latest
-aws-credentials:1.32
-pipeline-aws:1.43
-docker-plugin:1.2.9
+aws-credentials:latest
+pipeline-aws:latest
+docker-plugin:latest
