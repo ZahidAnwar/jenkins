@@ -4,4 +4,5 @@ workflow-aggregator:2.6
 git:4.10.0
 maven-plugin:latest
 aws-credentials:1.32
+withAWS:latest
 pipeline-aws:1.43
