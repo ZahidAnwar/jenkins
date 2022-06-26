@@ -35,3 +35,18 @@ pipelineJob('track-github-activities-api-acceptance-test') {
         }
     }
 }
+
+pipelineJob('track-github-activities-api-ecs-services') {
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    remote {
+                        url 'https://github.com/ZahidAnwar/track-github-activities-ecs-services.git'
+                    }
+                    branch 'main'
+                }
+            }
+        }
+    }
+}
