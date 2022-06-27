@@ -2,9 +2,9 @@ import org.gradle.nativeplatform.platform.internal.DefaultNativePlatform
 
 plugins {
     id 'base'
-    id 'com.palantir.docker' version '0.25.0'
-    id 'com.palantir.docker-run' version '0.25.0'
-    id 'pl.allegro.tech.build.axion-release' version '1.10.1'
+    id 'com.palantir.docker' version '0.31.0'
+    id 'com.palantir.docker-run' version '0.31.0'
+    id 'pl.allegro.tech.build.axion-release' version '1.13.6'
 }
 
 project.version = scmVersion.version
@@ -35,5 +35,5 @@ dockerRun {
     ports '8080:8080'
     clean true
     daemonize false
-    arguments '-v', "$extraPrefix/var/run/docker.sock:/var/run/docker.sock"
+    arguments '-v', "$extraPrefix/var/run/docker.sock:/var/run/docker.sock", '--group-add', 'dockerSockGroupId'
 }
